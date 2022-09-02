@@ -35,14 +35,14 @@ class BirdsViewModel:ObservableObject {
     
     func increaseScore(id: Int) {
         birds[id].score += 1
-        totalScore += 1
+        totalScore += 10
     }
     
     func decreaseScore(id: Int) {
         
         if birds[id].score != 0 {
             birds[id].score -= 1
-            totalScore -= 1
+            totalScore -= 10
         }
     }
 }
@@ -85,7 +85,7 @@ struct TwitcherView: View {
                                             .font(.system(size: 28))
                                     }
                                     
-                                    Text("\(bird.score)")
+                                    Text(" \(bird.score) ")
                                         .font(.system(size: 24))
                                     
                                     Button {
@@ -128,9 +128,6 @@ struct TwitcherView: View {
         .padding()
     }
 }
-
-
-
 
 
 
