@@ -14,7 +14,20 @@ struct twitcherApp: App {
     
     var body: some Scene {
         WindowGroup {
-            TwitcherView(viewModel: birdsVM)
+            
+            TabView {
+                
+                TwitcherView(viewModel: birdsVM)
+                    .tabItem {
+                        Label("Birds", systemImage: "bird.fill")
+                    }
+                
+                AchievementsView(viewModel: birdsVM)
+                    .tabItem {
+                        Label("Achievements", systemImage: "medal.fill")
+                    }
+            }
+         
         }
     }
 }

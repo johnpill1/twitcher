@@ -5,11 +5,6 @@
 //  Created by John Pill on 02/09/2022.
 //
 
-
-// ADD TAB PAGES WITH ACHIEVEMENTS!!!
-
-
-
 import SwiftUI
 
 struct Bird {
@@ -139,33 +134,35 @@ struct TwitcherView: View {
                                     
                                     Spacer()
                                 }
-                                
-                                
+
                             } .padding(.vertical) // End of bird unit
                         }
                     }
-                }
+                } // end of scroll view
                 
-                Spacer()
+                // Spacer()
                 
                 HStack {
-                    Text("TOTAL POINTS: ")
-                        .font(.system(size: 24, weight: .heavy))
+                    Text("Total Points: ")
+                        .font(.system(size: 24, weight: .heavy).italic())
                     Text("\(viewModel.totalScore) Points")
-                        .font(.system(size: 24, weight: .medium))
+                        .font(.system(size: 24, weight: .medium).italic())
                 }
-                
-                .frame(maxWidth: .infinity, maxHeight: 40)
+                .edgesIgnoringSafeArea(.horizontal)
+                .frame(maxWidth: .infinity, maxHeight: 45)
                 //  .background(Gradient(colors: [.indigo, .purple]))
                 .background(.green)
-                .cornerRadius(10)
+                .opacity(0.95)
+              //  .cornerRadius(10)
                 .foregroundColor(.white)
                 
+                Divider()
+                
             } .navigationTitle("Twitcher 🦜")
-            
         }
+
         .navigationViewStyle(StackNavigationViewStyle())
-        .padding()
+       // .padding()
         
     }
 }

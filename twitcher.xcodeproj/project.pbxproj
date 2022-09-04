@@ -11,6 +11,7 @@
 		282599EC28C2830400D33C4C /* TwitcherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282599EB28C2830400D33C4C /* TwitcherView.swift */; };
 		282599EE28C2830500D33C4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 282599ED28C2830500D33C4C /* Assets.xcassets */; };
 		282599F128C2830500D33C4C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 282599F028C2830500D33C4C /* Preview Assets.xcassets */; };
+		28D67A1A28C52E7B00F63D28 /* AchievementsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D67A1928C52E7B00F63D28 /* AchievementsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		282599EB28C2830400D33C4C /* TwitcherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitcherView.swift; sourceTree = "<group>"; };
 		282599ED28C2830500D33C4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		282599F028C2830500D33C4C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		28D67A1928C52E7B00F63D28 /* AchievementsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				282599E928C2830400D33C4C /* twitcherApp.swift */,
 				282599EB28C2830400D33C4C /* TwitcherView.swift */,
+				28D67A1928C52E7B00F63D28 /* AchievementsView.swift */,
 				282599ED28C2830500D33C4C /* Assets.xcassets */,
 				282599EF28C2830500D33C4C /* Preview Content */,
 			);
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				282599EC28C2830400D33C4C /* TwitcherView.swift in Sources */,
+				28D67A1A28C52E7B00F63D28 /* AchievementsView.swift in Sources */,
 				282599EA28C2830400D33C4C /* twitcherApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
