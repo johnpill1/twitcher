@@ -19,12 +19,12 @@ struct twitcherApp: App {
                 
                 TwitcherView(viewModel: birdsVM)
                     .tabItem {
-                        Label("Birds", systemImage: "bird.fill")
+                        Label("Birds", systemImage: "pencil")
                     }
                 
                 AchievementsView(viewModel: birdsVM)
                     .tabItem {
-                        Label("Achievements", systemImage: "medal.fill")
+                        Label("Achievements", systemImage: "star")
                     }
             }
          

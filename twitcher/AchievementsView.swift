@@ -19,17 +19,17 @@ struct AchievementsView: View {
             case 100...199:
                 
                 HStack {
-                    Image(systemName: "trophy")
+                    Image(systemName: "star.fill")
                         .font(.system(size: 24, weight: .bold))
                     
                     Text("100 Points")
                         .font(.system(size: 30, weight: .bold))
-                }
+                }.foregroundColor(.green)
                 
             case 200...299:
                 VStack {
                     HStack {
-                        Image(systemName: "trophy")
+                        Image(systemName: "star.fill")
                             .font(.system(size: 24, weight: .bold))
                         
                         Text("100 Points")
@@ -39,18 +39,18 @@ struct AchievementsView: View {
                     
                     
                     HStack {
-                        Image(systemName: "trophy")
+                        Image(systemName: "star.fill")
                             .font(.system(size: 24, weight: .bold))
                         
                         Text("200 Points")
                             .font(.system(size: 30, weight: .bold))
                     }.padding()
                     
-                }
+                }.foregroundColor(.green)
             case 300...10000:
                 VStack {
                     HStack {
-                        Image(systemName: "trophy")
+                        Image(systemName: "star.fill")
                             .font(.system(size: 24, weight: .bold))
                         
                         Text("100 Points")
@@ -59,7 +59,7 @@ struct AchievementsView: View {
              
                     
                     HStack {
-                        Image(systemName: "trophy")
+                        Image(systemName: "star.fill")
                             .font(.system(size: 24, weight: .bold))
                         
                         Text("200 Points")
@@ -69,7 +69,7 @@ struct AchievementsView: View {
                 
                 
                     HStack {
-                        Image(systemName: "trophy")
+                        Image(systemName: "star.fill")
                             .font(.system(size: 24, weight: .bold))
                         
                         Text("300 Points")
@@ -78,7 +78,7 @@ struct AchievementsView: View {
                     }.padding()
                 
                 
-            }
+                }.foregroundColor(.green)
             default:
                Text("")
             
